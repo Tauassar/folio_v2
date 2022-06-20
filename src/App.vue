@@ -1,16 +1,12 @@
 <template>
-  <MainPage/>
+  <router-view/>
 </template>
 
 <script>
-import MainPage from "@/pages/MainPage";
 import '@/scss/_fonts.scss';
 
 export default {
   name: 'App',
-  components: {
-    MainPage
-  }
 }
 </script>
 
