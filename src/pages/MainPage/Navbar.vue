@@ -84,6 +84,10 @@ export default {
     height: 74px;
     display: flex;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    opacity: 0.99;
   }
   .work-period, .social-networks{
     width: 33%;
@@ -111,6 +115,7 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
   }
   .white-color{
     color: #FFFFFF;
